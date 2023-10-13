@@ -334,10 +334,11 @@ This plot shows us the fire densities in the National Hydrography dataset region
 
 
 
-
-      Cell In[17], line 1
-        jupyter nbconvert vector.ipynb --to markdown --no-input
-                ^
-    SyntaxError: invalid syntax
-
+    [NbConvertApp] Converting notebook vector.ipynb to markdown
+    /opt/conda/share/jupyter/nbconvert/templates/base/display_priority.j2:32: UserWarning: Your element with mimetype(s) dict_keys(['application/javascript', 'application/vnd.holoviews_load.v0+json']) is not able to be represented.
+      {%- elif type == 'text/vnd.mermaid' -%}
+    /opt/conda/share/jupyter/nbconvert/templates/base/display_priority.j2:32: UserWarning: Your element with mimetype(s) dict_keys([]) is not able to be represented.
+      {%- elif type == 'text/vnd.mermaid' -%}
+    [NbConvertApp] Support files will be in vector_files/
+    [NbConvertApp] Writing 29578 bytes to vector.md
 
